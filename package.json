@@ -1,11 +1,14 @@
 {
   "name": "nodemailer",
   "version": "1.0.0",
-  "description": "Practice build for Nodemailer",
-  "main": "index.js",
+  "description": "Sample app using nodemailer",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nelson Correia",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.7.7"
+  }
 }
